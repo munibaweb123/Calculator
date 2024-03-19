@@ -4,12 +4,12 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 
 const answer=await inquirer.prompt([{
-message:"enter first number",
+message:"enter your first number",
 type:"number",
 name:"firstNumber"
 },
 {
-    message:"enter second number",
+    message:"enter your second number",
     type:"number",
     name:"secondNumber"  
 },
